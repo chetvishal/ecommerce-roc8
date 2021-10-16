@@ -1,9 +1,9 @@
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 
 export const NavigationBar = () => {
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#" style={{marginLeft: "1rem"}}>Navbar scroll</Navbar.Brand>
+            <Navbar.Brand href="#" style={{marginLeft: "1rem"}}>MyCart</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
                 <Nav
