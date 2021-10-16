@@ -1,9 +1,10 @@
 import { Card, Button } from "react-bootstrap"
 
-export const ProdCard = ({name, price}) => {
+export const ProdCard = ({ data }) => {
+    const { name, price, image } = data;
     return (
         <Card style={{ minWidth: "18rem", maxWidth: "18rem", marginInline: "1rem" }} className="mb-3" >
-            <Card.Img variant="top" src="https://rukminim1.flixcart.com/image/880/1056/kjuby4w0/t-shirt/s/x/z/m-fc4058-fastcolors-original-imafzbj546kdvbh8.jpeg?q=50" />
+            <Card.Img variant="top" src={image} />
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>
